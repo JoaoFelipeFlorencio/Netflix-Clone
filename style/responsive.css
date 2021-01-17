@@ -10,6 +10,39 @@
   }
 }
 
+@media (max-width: 500px) {
+  .principal .titulo {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .descricao {
+    margin-bottom: 10px;
+  }
+
+  .butoes {
+    display: flex;
+  }
+  header nav a {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .principal .titulo {
+    font-size: 20px;
+  }
+  p {
+    font-size: 10px;
+  }
+  header nav a {
+    margin-right: 5px;
+    font-size: 13px;
+  }
+}
+
 @media (min-width: 1000px) {
   .descricao {
     width: 50%;
