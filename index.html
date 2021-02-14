@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/buttons.css">
+    <link rel="stylesheet" href="style/home.css" />
     <link rel="stylesheet" href="style/responsive.css" />
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
@@ -14,12 +17,23 @@
     <header>
       <div class="container">
         <h2 class="Logo">NETFLIX</h2>
-        <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Series</a>
-          <a href="#">Filmes</a>
-          <a href="#">Documentarios</a>
-        </nav>
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Documentarios</a></li>
+          </ul>
+        </nav><!--menu-desktop-->
+        <div class="toggle-btn"></div><!--toggle-btn-->
+        <nav class="menu-mobile">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Documentarios</a></li>
+          </ul>
+        </nav><!--menu-desktop-->
       </div>
       <!--Container-->
     </header>
@@ -59,25 +73,39 @@
     <div class="carrossel-filmes">
       <div class="owl-carousel owl-theme">
         <div class="item">
-          <a href="https://www.youtube.com/watch?v=V75dMMIW2B4"><img class="box-filme" src="img/LOTR-1.jpg" /></a>
+          <a href="https://www.youtube.com/watch?v=V75dMMIW2B4"
+            ><img class="box-filme" src="img/LOTR-1.jpg"
+          /></a>
         </div>
         <div class="item">
-          <a href="https://www.youtube.com/watch?v=hYcw5ksV8YQ"><img class="box-filme" src="img/LOTR-2.jpg" /></a>
+          <a href="https://www.youtube.com/watch?v=hYcw5ksV8YQ"
+            ><img class="box-filme" src="img/LOTR-2.jpg"
+          /></a>
         </div>
         <div class="item">
-          <a href="https://www.youtube.com/watch?v=r5X-hFf6Bwo"><img class="box-filme" src="img/LOTR-3.jpg" /></a>
+          <a href="https://www.youtube.com/watch?v=r5X-hFf6Bwo"
+            ><img class="box-filme" src="img/LOTR-3.jpg"
+          /></a>
         </div>
         <div class="item">
-          <a href="https://www.youtube.com/watch?v=gYbW1F_c9eM"><img class="box-filme" src="img/Star-wars-2.jpg" /></a>
+          <a href="https://www.youtube.com/watch?v=gYbW1F_c9eM"
+            ><img class="box-filme" src="img/Star-wars-2.jpg"
+          /></a>
         </div>
         <div class="item">
-          <a href="https://www.youtube.com/watch?v=5UnjrG_N8hU"><img class="box-filme" src="img/Star-wars-3.jpg" /></a>
+          <a href="https://www.youtube.com/watch?v=5UnjrG_N8hU"
+            ><img class="box-filme" src="img/Star-wars-3.jpg"
+          /></a>
         </div>
         <div class="item">
-          <a href="https://www.youtube.com/watch?v=iVAgTiBrrDA"><img class="box-filme" src="img/Hobbit-1.jpg" /></a>
+          <a href="https://www.youtube.com/watch?v=iVAgTiBrrDA"
+            ><img class="box-filme" src="img/Hobbit-1.jpg"
+          /></a>
         </div>
         <div class="item">
-          <a href="https://www.youtube.com/watch?v=JTSoD4BBCJc"><img class="box-filme" src="img/Hobbit.jpg" /></a>
+          <a href="https://www.youtube.com/watch?v=JTSoD4BBCJc"
+            ><img class="box-filme" src="img/Hobbit.jpg"
+          /></a>
         </div>
       </div>
     </div>

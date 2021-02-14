@@ -1,0 +1,39 @@
+
+.principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(../img/star-wars-banner.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-position: center;
+}
+
+.principal > .container {
+  margin-left: 5vw;
+  width: 70%;
+}
+
+.principal .descricao {
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+
+.principal .titulo {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrossel-filmes{
+  margin-top: 8px;
+}

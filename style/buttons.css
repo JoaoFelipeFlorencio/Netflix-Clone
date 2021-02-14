@@ -1,0 +1,26 @@
+.butao {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    margin-right: 15px;
+  }
+  
+
+  .butao:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .butao i {
+    margin-right: 5px;
+  }
+
+  /* TODO: Add toggle button for mobile menu */
+
+  .toggle-btn {
+    display: none;
+  }
