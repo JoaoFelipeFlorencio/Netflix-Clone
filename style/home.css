@@ -37,3 +37,29 @@
 .carrossel-filmes{
   margin-top: 8px;
 }
+
+.line-titulo{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.ln1{
+  position : absolute;
+  width: 80%;
+  height: 2px;
+  background-color: white;
+  z-index: 1;
+}
+
+.line-titulo h2{
+  position : relative;
+  padding : 0 20px;
+  font-style: italic;
+  display: inline-block;
+  z-index: 2;
+  background-color: rgba(20, 20, 20);
+}
